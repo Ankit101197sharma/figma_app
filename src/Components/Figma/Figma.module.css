@@ -42,10 +42,16 @@
 }
 .logoname{
     position: absolute;
-width: 170px;
+width: 120px;
+
+}
+.logoPick{
+   
+width: 160px;
 height: 116px;
-font-size: 12px;
-top: 14px;
+left: 194px;
+top: 112px;
+    
 }
 .rightSec{
     position: absolute;

@@ -1,6 +1,7 @@
 import React from 'react'
 import classes from "./Figma.module.css"
 import img1 from "../../Assest/image1.png"
+import logo1 from  "../../Assest/logo.png"
 
 function Figma() {
   return (
@@ -9,9 +10,7 @@ function Figma() {
               
                    <div className={classes.rightSec1}>
                   <div className={classes.logoname}>
-                      <h1>
-                            Foodicted
-                      </h1>
+                      <img className={classes.logoPick} src={logo1} alt="logo" />
                   </div>
                    <div className={classes.mainSec2}>
                        
